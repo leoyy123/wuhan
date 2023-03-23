@@ -4,7 +4,7 @@ function countDown() {
       clearInterval(countDownTimer);
     // this.seconds = Math.ceil(this.inviteInfo.inviteCodeEndTime / 1000);
     let seconds = Math.floor(
-        new Date('2029-03-05 12:00:00').getTime() / 1000 -
+        new Date('2029/03/05 12:00:00').getTime() / 1000 -
             new Date().getTime() / 1000
     );;
     let dom = document.querySelector('.time_desc');

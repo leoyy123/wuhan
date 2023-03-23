@@ -2,33 +2,49 @@ html,
 body {
   background: #000;
   height: 100%;
-  color: #fff;
+  color: #4472c4;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
 }
 
 #app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-image: url('./ip_bg.jpeg');
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .title {
   font-size: 16px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .time_desc {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 25px;
   font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    background-image: url('./bg.png');
+    background-color: #2a3847;
+  }
+
   .title {
     font-size: 36px;
     font-weight: bold;
+    margin-top: 100px;
   }
 
   .time_desc {

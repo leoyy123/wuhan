@@ -3,7 +3,9 @@ function countDown() {
     let countDownTimer= null,countTimes=''
       clearInterval(countDownTimer);
     // this.seconds = Math.ceil(this.inviteInfo.inviteCodeEndTime / 1000);
-    let seconds = Math.floor(new Date('2023/06/30 12:00:00').getTime()/1000-new Date().getTime()/1000);
+    let seconds = Math.floor(
+      new Date('2023/06/30 12:00:00').getTime()/1000-new Date().getTime()/1000
+    );
     let dom = document.querySelector('.time_desc');
     // this.seconds = 10000;
     const hms = seconds%86400;

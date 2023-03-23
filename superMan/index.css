@@ -1,0 +1,18 @@
+html,body {
+  background: #000;
+  height: 100%;
+  color: #fff;
+  box-sizing: border-box;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.time_desc {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
